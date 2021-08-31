@@ -1,12 +1,17 @@
 [package]
-name = "rbtree"
-version = "0.1.5"
-authors = ["tickbh <tickdream125@hotmail.com>"]
-description = "the rbtree for Rust"
-license = "Apache-2.0/MIT"
-documentation = "https://docs.rs/rbtree"
-repository = "https://github.com/tickbh/rbtree-rs"
-readme = "README.md"
-keywords = ["HashMap", "RBTree", "rbtree"]
+name = "certified-rbtree"
+version = "0.1.0"
+authors = ["Parsa Ghadimi <parsa@fleek.co>", "tickbh <tickdream125@hotmail.com>"]
+description = "Certified Red-Balck Tree"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha2 = "0.9.6"
+serde_bytes = "0.11.5"
+serde = "1.0.130"
 
 [dev-dependencies]
+hex = "0.4.3"
+serde_cbor = "0.11.2"
